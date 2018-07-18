@@ -1,3 +1,8 @@
+@font-face {
+	font-family: 'Product Sans';
+	src: url('product-sans-regular.woff');
+}
+
 html, body {
 	height: 100%;
 	width: 100%;
@@ -87,12 +92,12 @@ li {
 }
 .logo {
 	display: inline-block;
-	font-family: 'Josefin Sans';
-	font-size: 6em;
+	font-family: 'Product Sans';
+	font-size: 5.8em;
 	text-align: center;
 	margin: 20px;
 	font-weight: 500;
-	letter-spacing: -3px;
+	letter-spacing: -1px;
 }
 .char1	{
 	color: #4487f2;
@@ -111,6 +116,9 @@ li {
 }
 .char6 {
 	color: #e84135;
+	font-family: 'Josefin Sans';
+	font-size: 1.15em;
+	letter-spacing: -3px;
 }
 .search-container {
 	position: relative;
